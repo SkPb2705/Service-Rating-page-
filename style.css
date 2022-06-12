@@ -1,0 +1,81 @@
+/* main page background styling */
+body{
+  background-color:  black
+;
+}
+
+/* Pre-submission rating scale page styling */
+
+.background-rating-card{
+  background-color:hsl(216, 12%, 10%);
+}
+
+.star-logo-bg{
+background-color:  hsl(213, 19%, 18%);
+}
+
+.feedback-question{
+  font-family: "Overpass";
+  font-weight: 700;
+
+}
+.feedback-request{
+  font-size: 12px;
+  font-family: "Overpass";
+  font-weight: 400;
+  color:  hsl(216, 12%, 54%);
+}
+
+
+/* rating numbers on scale of 5 */
+.rating_num{
+background-color: hsl(213, 19%, 18%);
+color:  hsl(217, 12%, 63%);
+font-family: "Overpass";
+position: relative;
+font-size: 10px;
+
+}
+
+.orangeBtn{
+background-color:  hsl(25, 97%, 53%);
+}
+.greyBtn{
+  background-color:  hsl(216, 12%, 54%);
+}
+
+
+/* submitting button gesture */
+.submit_text{
+  background-color: hsl(25, 97%, 53%);
+  font-family: "Overpass";
+  color: white;
+  font-size: 15px;
+}
+
+.submitOnHover{
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  font-family: "Overpass";
+  font-size: 15px;
+}
+
+.rating-selection-text{
+  color :  hsl(25, 97%, 53%);
+  font-family: "Overpass";
+  font-size: 10px;
+   background-color:  hsl(213, 19%, 18%);
+
+}
+.after-submit{
+  visibility: hidden;
+}
+.after-submit-show{
+  visibility: visible;
+  position: absolute;
+  left: 33%;
+  top: 10%;
+}
+.before-submit-noshow{
+  visibility:hidden;
+  }
